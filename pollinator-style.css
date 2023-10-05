@@ -1,0 +1,522 @@
+/* Global Styles */
+body {
+    background-color: #128891;
+    font-family: 'Avenir', sans-serif;
+    color: black;
+    padding: 20;
+}
+
+section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* TOP BAR */
+.top-bar {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+/* HEADER STYLE */
+header {
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: right;
+}
+
+/* Logo styles */
+.logo {
+    float: left;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logohead {
+    max-width: 500px;
+    height: auto;
+    margin-top: -28px;
+}
+
+/* NAVIGATION STYLES */
+.nav {
+    float: right;
+    margin-top: 0px;
+    background-color: black;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* SPACE BELOW THE HEADER */
+header {
+    margin-bottom: 60px;
+}
+
+/* HERO SECTION STYLES */
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    background-image: url('images/background.jpg'); /* Update image path */
+}
+
+/* HERO IMAGE STYLES */
+.hero-image {
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+/* HERO TEXT STYLE */
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    width: 80%;
+    z-index: 1;
+    justify-content: center;
+}
+
+.hero-text h1 {
+    margin-top: 0px;
+    font-size: 80pt;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+    line-height: 25px;
+}
+
+/* HEADING STYLES */
+h1 {
+    font-size: 150pt;
+    line-height: 95pt;
+    letter-spacing: 5px;
+    font-weight: black;
+    margin-bottom: 15px;
+    color: white;
+}
+
+h2 {
+    font-size: 70pt;
+    line-height: 1.2;
+    font-weight: black;
+    margin-bottom: 15px;
+    color: black;
+}
+
+h3 {
+    font-size: 30pt;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-weight: black;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    line-height: 66pt;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 30pt;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: black;
+}
+
+h4 {
+    background-color: white;
+}
+
+/* CONTAINER ADJUSTMENTS */
+.hero-text {
+    align-items: center;
+}
+
+.column {
+    background-color: white;
+    padding: 0px;
+    width: 85%;
+}
+
+.PollinatorPlantsContainer {
+    background-color: white;
+    padding: 30px;
+    width: 85%;
+    margin-left: 40px;
+}
+
+.pplants {
+    background-color: white;
+    padding: 30px;
+    text-align: left;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.aboutinfo {
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+/* Style for the container of text in the "About" section */
+.aboutinfo section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.custom-width {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.orange-bar {
+    background-color: #FFA500;
+    height: 80px;
+    width: 100%;
+    margin-top: -60px;
+    z-index: 10;
+    padding-top: 20px;
+}
+
+.PollinatorPlantsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.column {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.column img {
+    max-width: 100%;
+}
+
+.column h4 {
+    margin: 5px 0;
+}
+
+.beeinfo {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.beeinfo section {
+    flex: 1;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.beeinfo img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+
+.beeinfo-text {
+    margin-left: 20px;
+}
+
+.anatomy {
+    background-color: white;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.anatomy img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.anatomy-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.anatomy-text {
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.center-heading {
+    text-align: center;
+    margin: 0;
+}
+
+.anatomy-text h3 {
+    margin-top: 0;
+}
+
+.anatomy-text p {
+    margin-bottom: 0px;
+    line-height: 25px;
+    margin-right: 20px;
+}
+
+.anatomy-text h5 {
+    margin: 10px 0;
+}
+
+.image-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 43px;
+    text-align: center;
+}
+
+.monarch {
+    margin-bottom: 20px;
+}
+
+.cycles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cycle {
+    text-align: center;
+    margin: 10px 20px;
+    width: 20%;
+    padding-top: 40px;
+}
+
+.cycle img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.cycle h4 {
+    margin-top: 10px;
+}
+
+.large.display {
+    display: flex;
+    align-items: center;
+}
+
+.heromonarch {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.heromonarch img {
+    max-width: 45%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.hero-text-monarch {
+    flex: 1;
+    color: white;
+    margin-right: 30px;
+}
+
+/* Additional styling for header and paragraph (adjust as needed) */
+.hero-text-monarch h1 {
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: -.1px;
+}
+
+.hero-text-monarch p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Background color for the "5 Ways You Can Help" section */
+.help-section {
+    background-color: white;
+    padding: 20px;
+}
+
+/* Style for the H2 header */
+.help-section h2 {
+    font-size: 30;
+    margin: 0;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+/* Style for each help item */
+.help-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+/* Style for the images */
+.help-item .image-container {
+    flex: 1;
+    max-width: 350px;
+    margin-right: 50px;
+}
+
+.help-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style for the container of H3 and paragraph */
+.help-item .text-container {
+    flex: 2;
+    text-align: left;
+}
+
+/* Style for the H3 */
+.help-item h3 {
+    margin: 0;
+    text-align: left;
+}
+
+/* Style for the paragraph */
+.help-item p {
+    margin: 0;
+    text-align: left;
+    margin-top: 10px;
+    clear: both;
+    display: block;
+    max-width: 600px;
+}
+
+.mistaken-identity {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.mistaken-identity h3 {
+    margin: 0;
+    padding-top: 70px;
+}
+
+.mistaken-identity p {
+    font-size: 16px;
+    margin: 10px 0;
+    line-height: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mistaken-identity img {
+    max-width: 90%;
+    height: auto;
+    margin: 0px 0;
+    padding-bottom: 40px;
+}
+
+/* FOOTER INFORMATION */
+/* Footer Styles */
+footer {
+    background-color: #128891;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content img {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.footer-content h5 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-content .social-media img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-content .social-media a:hover img {
+    transform: scale(1.2);
+}
